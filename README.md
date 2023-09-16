@@ -8,3 +8,4 @@ This web app allows you to practice your timing with Twisted Fate's "Pick a Card
 - Press 'W' to start/stop shuffling and select the card.
 - Background color changes in sync with the card icon.
 - Displays actual card icons from the game.
+- Twisted Fate sprite from [Leptonyx](https://www.reddit.com/r/TwistedFateMains/comments/n8fymc/pixel_art/) on Reddit

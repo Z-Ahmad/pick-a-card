@@ -36,8 +36,8 @@
   function handleKeyDown(event) {
     if (event.key === 'w') {
       if (!isShuffling) {
-        // If 'W' is pressed to resume, reset currentIndex to 0 (blue card)
-        currentIndex = 0;
+        // If 'W' is pressed to resume, reset currentIndex to random card
+        currentIndex = Math.floor(Math.random() * 3);;
         document.body.style.backgroundColor = cardColors[currentIndex]; // Reset background color
       }
       isShuffling = !isShuffling; // Toggle the shuffling state
@@ -59,3 +59,4 @@
   <img src={cardImages[currentIndex]} alt="current card">
 </div>
 <h1>Press w to start/stop</h1>
+<img src="/pixelTF.png" alt="">
